@@ -2,17 +2,17 @@
   <img src="assets/logosGPO.png" width="300" alt="Logo" />
 </p>
 
-# From Local Interactions to Global Operators: Scalable Gaussian Process Operator for Physical Systems **(LoGoS-GPO)**
+# From Local Interactions to Global Operators: Scalable Gaussian Process Operator for Physical Systems **{LoGoS-GPO)**
 
 This repository contains the implementation of the following paper:
 
 > **[From Local Interactions to Global Operators: Scalable Gaussian Process Operator for Physical Systems](https://arxiv.org/abs/2506.15906)**
 
 
-## Overview
+## Overview:
 Our method leverages nearest-neighbor-based local kernel approximations in the spatial domain, sparse kernel approximation in the parameter space, and structured Kronecker factorizations to enable tractable inference on large-scale datasets and high-dimensional input. While local approximations often introduce accuracy trade-offs due to limited kernel interactions, we overcome this by embedding operator-aware kernel structures and employing expressive, task-informed mean functions derived from neural operator architectures. 
 
-## Architecture
+## Architecture:
 
 ![fig](assets/image.png)
 
